@@ -1,4 +1,4 @@
-### Note 20 Ultra Debloat Script 1.2.0 ###
+### Samsung Debloat Script 1.2.0 ###
 
 # Bixby
 pm uninstall --user 0 com.samsung.android.bixby.wakeup
