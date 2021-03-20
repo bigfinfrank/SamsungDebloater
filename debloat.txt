@@ -1,4 +1,4 @@
-### Note 20 Ultra Debloat Script 1.1.0 ###
+### Note 20 Ultra Debloat Script 1.2.1 ###
 
 # Bixby
 pm uninstall --user 0 com.samsung.android.bixby.wakeup
@@ -88,7 +88,7 @@ pm uninstall --user 0 com.samsung.android.app.cocktailbarservice
 # Samsung Kids
 pm uninstall --user 0 com.samsung.android.kidsinstaller
 pm uninstall --user 0 com.samsung.android.app.camera.sticker.facearavatar.preload
-pm uninstall --user 0 com.sec.android.app.kidshome 
+pm uninstall --user 0 com.sec.android.app.kidshome
 
 
 # Miscellaneous Samsung Bloatware
@@ -108,7 +108,7 @@ pm uninstall --user 0 com.samsung.android.app.tips
 pm uninstall --user 0 com.sec.android.app.clockpackage
 pm uninstall --user 0 com.samsung.android.app.notes
 pm uninstall --user 0 com.samsung.android.app.notes.addons
-pm uninstall --user 0 com.samsung.android.messaging
+#pm uninstall --user 0 com.samsung.android.messaging
 pm uninstall --user 0 com.samsung.android.aircommandmanager
 pm uninstall --user 0 com.samsung.android.scloud
 pm uninstall --user 0 com.samsung.SMT
@@ -175,6 +175,52 @@ pm uninstall --user 0 com.samsung.android.ipsgeofence
 pm uninstall --user 0 com.sec.android.app.ve.vebgm # Select background music
 pm uninstall --user 0 com.samsung.android.app.settings.bixby
 pm uninstall --user 0 com.samsung.android.service.tagservice # Tags
+pm uninstall --user 0 com.samsung.aasaservice
+pm uninstall --user 0 com.samsung.advp.imssettings
+pm uninstall --user 0 com.samsung.android.app.advsounddetector
+pm uninstall --user 0 com.samsung.android.app.camera.sticker.facear.preload
+pm uninstall --user 0 com.samsung.android.app.camera.sticker.facear3d.preload
+pm uninstall --user 0 com.samsung.android.app.camera.sticker.facearframe.preload
+pm uninstall --user 0 com.samsung.android.app.camera.sticker.stamp.preload
+pm uninstall --user 0 com.samsung.android.app.episodes
+pm uninstall --user 0 com.samsung.android.app.filterinstaller
+pm uninstall --user 0 com.samsung.android.app.memo
+pm uninstall --user 0 com.samsung.android.app.sharelive
+pm uninstall --user 0 com.samsung.android.app.storyalbumwidget
+pm uninstall --user 0 com.samsung.android.app.watchmanager
+pm uninstall --user 0 com.samsung.android.aware.service
+pm uninstall --user 0 com.samsung.android.fmm
+pm uninstall --user 0 com.samsung.android.knox.analytics.uploader
+pm uninstall --user 0 com.samsung.android.lool
+pm uninstall --user 0 com.samsung.android.mdx.kit
+pm uninstall --user 0 com.samsung.android.mdx.quickboard
+pm uninstall --user 0 com.samsung.android.oneconnect
+pm uninstall --user 0 com.samsung.android.service.travel
+pm uninstall --user 0 com.samsung.android.setting.multisound
+pm uninstall --user 0 com.samsung.android.spdfnote
+pm uninstall --user 0 com.samsung.android.tripwidget
+pm uninstall --user 0 com.samsung.android.visionarapps
+pm uninstall --user 0 com.samsung.android.voicewakeup
+pm uninstall --user 0 com.samsung.app.highlightplayer
+pm uninstall --user 0 com.samsung.daydream.customization
+pm uninstall --user 0 com.samsung.dcmservice
+pm uninstall --user 0 com.samsung.enhanceservice
+pm uninstall --user 0 com.samsung.fresco.logging
+pm uninstall --user 0 com.samsung.groupcast
+pm uninstall --user 0 com.samsung.hs20provider
+pm uninstall --user 0 com.samsung.ipservice
+pm uninstall --user 0 com.samsung.knox.appsupdateagent
+pm uninstall --user 0 com.samsung.knox.rcp.components
+pm uninstall --user 0 com.samsung.knox.securefolder
+pm uninstall --user 0 com.samsung.knox.securefolder.setuppage
+pm uninstall --user 0 com.samsung.sec.android.application.csc
+pm uninstall --user 0 com.samsung.ucs.agent.ese
+pm uninstall --user 0 com.samsung.voiceserviceplatform
+pm uninstall --user 0 com.sec.android.app.samsungapps
+pm uninstall --user 0 comtv.peel.samsung.app
+pm uninstall --user 0 com.yelp.and
+pm uninstall --user 0 com.samsung.android.forest
+#pm uninstall --user 0 com.samsung.android.dialer
 
 
 # Other Bloatware
@@ -252,7 +298,7 @@ pm uninstall --user 0 com.osp.app.signin
 pm uninstall --user 0 com.sec.android.widgetapp.webmanual
 pm uninstall --user 0 com.eterno
 pm uninstall --user 0 com.sec.unifiedwfc # WiFi Calling
-pm uninstall --user 0 com.disney.disneyplus # Disney Plus 
+pm uninstall --user 0 com.disney.disneyplus # Disney Plus
 pm uninstall --user 0 com.apple.android.music # Apple Music
 pm uninstall --user 0 tv.pluto.android # Pluto TV
 pm uninstall --user 0 com.snapchat.android # Snapchat
@@ -266,6 +312,102 @@ pm uninstall --user 0 com.plarium.raidlegends
 pm uninstall --user 0 air.com.buffalo_studios.newflashbingo
 pm uninstall --user 0 com.particlenews.newsbreak
 pm uninstall --user 0 com.gramgames.mergedragons
+pm uninstall --user 0 com.android.email
+pm uninstall --user 0 com.android.exchange
+pm uninstall --user 0 com.android.providers.userdictionary
+pm uninstall --user 0 com.android.stk
+pm uninstall --user 0 com.android.wallpapercropper
+pm uninstall --user 0 com.blurb.checkout
+pm uninstall --user 0 com.cequint.ecid
+pm uninstall --user 0 com.gotv.nflgamecenter.us.lite
+pm uninstall --user 0 com.imdb.mobile
+pm uninstall --user 0 com.infraware.polarisoffice5
+pm uninstall --user 0 com.nuance.swype.input
+pm uninstall --user 0 com.policydm
+pm uninstall --user 0 com.sec.android.AutoPreconfig
+pm uninstall --user 0 com.sec.android.Preconfig
+pm uninstall --user 0 com.sec.android.RilServiceModeApp
+pm uninstall --user 0 com.sec.android.app.DataCreate
+pm uninstall --user 0 com.sec.android.app.SecSetupWizard
+pm uninstall --user 0 com.sec.android.app.SmartClipEdgeService
+pm uninstall --user 0 com.sec.android.app.applinker
+pm uninstall --user 0 com.sec.android.app.bluetoothtest
+pm uninstall --user 0 com.sec.android.app.factorykeystring
+pm uninstall --user 0 com.sec.android.app.gamehub
+pm uninstall --user 0 com.sec.android.app.hwmoduletest
+pm uninstall --user 0 com.sec.android.app.myfiles
+pm uninstall --user 0 com.sec.android.app.ocr
+pm uninstall --user 0 com.sec.android.app.parser
+pm uninstall --user 0 com.sec.android.app.personalization
+pm uninstall --user 0 com.sec.android.app.popupcalculato
+pm uninstall --user 0 com.sec.android.app.ringtoneBR
+pm uninstall --user 0 com.sec.android.app.servicemodeapp
+pm uninstall --user 0 com.sec.android.app.sysscope
+pm uninstall --user 0 com.sec.android.app.tfunlock
+pm uninstall --user 0 com.sec.android.app.tourviewer
+pm uninstall --user 0 com.sec.android.app.translator
+pm uninstall --user 0 com.sec.android.app.ve.vebgm
+pm uninstall --user 0 com.sec.android.app.wfdbroker
+pm uninstall --user 0 com.sec.android.app.withtv
+pm uninstall --user 0 com.sec.android.app.wlantest
+pm uninstall --user 0 com.sec.android.diagmonagent
+pm uninstall --user 0 com.sec.android.easyMover
+pm uninstall --user 0 com.sec.android.mimage.gear360editor
+pm uninstall --user 0 com.sec.android.mimage.photoretouching
+pm uninstall --user 0 com.sec.android.ofviewer
+pm uninstall --user 0 com.sec.android.omc
+pm uninstall --user 0 com.sec.android.preloadinstaller
+pm uninstall --user 0 com.sec.android.provider.snote
+pm uninstall --user 0 com.sec.android.providers.security
+pm uninstall --user 0 com.sec.android.providers.tasks
+pm uninstall --user 0 com.sec.android.sdhms
+pm uninstall --user 0 com.sec.android.sidesync30
+pm uninstall --user 0 com.sec.android.uibcvirtualsoftkey
+pm uninstall --user 0 com.sec.android.widgetapp.diotek.smemo
+pm uninstall --user 0 com.sec.app.TransmitPowerService
+pm uninstall --user 0 com.sec.automation
+pm uninstall --user 0 com.sec.bcservice
+pm uninstall --user 0 com.sec.downloadablekeystore
+pm uninstall --user 0 com.sec.epdgtestapp
+pm uninstall --user 0 com.sec.everglades
+pm uninstall --user 0 com.sec.everglades.update
+pm uninstall --user 0 com.sec.factory
+pm uninstall --user 0 com.sec.factory.camera
+pm uninstall --user 0 com.sec.hearingadjust
+pm uninstall --user 0 com.sec.ims
+pm uninstall --user 0 com.sec.imslogger
+pm uninstall --user 0 com.sec.imsservice
+pm uninstall --user 0 com.sec.kidsplat.installer
+pm uninstall --user 0 com.sec.location.nsflp2
+pm uninstall --user 0 com.sec.mldapchecker
+pm uninstall --user 0 com.sec.modem.settings
+#pm uninstall --user 0 com.sec.providers.assisteddialing
+pm uninstall --user 0 com.sec.readershub
+pm uninstall --user 0 com.sec.smartcard.manager
+pm uninstall --user 0 com.sec.spen.flashannotate
+pm uninstall --user 0 com.sec.sve
+pm uninstall --user 0 com.sec.usbsettings
+pm uninstall --user 0 com.sec.vowifispg
+pm uninstall --user 0 com.sec.yosemite.phone
+pm uninstall --user 0 com.sem.factoryapp
+pm uninstall --user 0 com.singtel.mysingtel
+pm uninstall --user 0 com.test.LTEfunctionality
+pm uninstall --user 0 com.tripadvisor.tripadvisor
+pm uninstall --user 0 com.trustonic.tuiservice
+pm uninstall --user 0 com.vlingo.midas
+pm uninstall --user 0 comflipboard.app
+pm uninstall --user 0 comflipboard.boxer.app
+pm uninstall --user 0 com.samsung.android.livestickers
+pm uninstall --user 0 com.sec.android.gallery3d
+pm uninstall --user 0 com.google.android.syncadapters.contacts
+pm uninstall --user 0 com.samsung.android.app.dofviewer
+pm uninstall --user 0 com.samsung.android.servce.stplatform
+pm uninstall --user 0 com.samsung.android.service.airviewdictionary
+pm uninstall --user 0 com.sec.android.app.vepreload
+pm uninstall --user 0 com.samsung.android.video
+pm uninstall --user 0 com.samsung.app.newtrim
+pm uninstall --user 0 com.samsung.android.dynamiclock
+pm uninstall --user 0 com.ebay.carrier
 
 
 # Google
@@ -292,10 +434,16 @@ pm uninstall --user 0 com.google.ar.lens
 pm uninstall --user 0 com.google.vr.vrcore
 pm uninstall --user 0 com.android.hotwordenrollment.okgoogle
 pm uninstall --user 0 com.google.ar.core
-pm uninstall --user 0 com.google.android.dialer
+#pm uninstall --user 0 com.google.android.dialer
 pm uninstall --user 0 com.google.android.projection.gearhead
+pm uninstall --user 0 com.google.android.apps.books
+pm uninstall --user 0 com.google.android.apps.magazines
+pm uninstall --user 0 com.google.android.apps.plus
+pm uninstall --user 0 com.google.android.talk
+pm uninstall --user 0 com.google.audio.hearing.visualization.accessibility.scribe
 
-# Google Genocide - This will remove the Google Play Store and Google, this will almost certainly break things. If you go this route consider installing MicroG.
+
+# Google Genocide - This will remove the Google Play Store and Google Frameworks, if you want to continue using most apps you'll need to install Aurora Store and MicroG (or equivalent alternatives)
 #pm uninstall --user 0 com.google.android.onetimeinitializer
 #pm uninstall --user 0 com.google.android.as
 #pm uninstall --user 0 com.google.android.setupwizard
@@ -306,6 +454,7 @@ pm uninstall --user 0 com.google.android.projection.gearhead
 #pm uninstall --user 0 com.google.android.gms
 #pm uninstall --user 0 com.google.android.configupdater
 #pm uninstall --user 0 com.google.android.backuptransport
+
 
 # Launcher (if you don't have another launcher installed do not remove!)
 #pm uninstall --user 0 com.sec.android.app.launcher
@@ -320,11 +469,17 @@ pm uninstall --user 0 com.google.android.projection.gearhead
 #pm uninstall --user 0 com.samsung.android.knox.containeragent
 #pm uninstall --user 0 com.sec.enterprise.knox.cloudmdm.smdms
 
+
 # Microsoft
 pm uninstall --user 0 com.microsoft.appmanager
 pm uninstall --user 0 com.microsoft.office.officehubrow
 pm uninstall --user 0 com.microsoft.skydrive
-pm uninstall --user 0 com.samsung.android.mdx
+pm uninstall --user 0 com.microsoft.office.excel
+pm uninstall --user 0 com.microsoft.office.powerpoint
+pm uninstall --user 0 com.microsoft.office.word
+pm uninstall --user 0 com.samsung.android.mdx # Samsung Dex
+pm uninstall --user 0 com.skype.raider
+
 
 # Amazon
 pm uninstall -k --user 0 com.amazon.fv
@@ -335,22 +490,15 @@ pm uninstall -k --user 0 com.amazon.venezia
 
 
 # Verizon
-pm uninstall --user 0 com.vcast.mediamanager
-pm uninstall --user 0 com.samsung.vmmhux
-pm uninstall --user 0 com.vzw.hss.myverizon
-pm uninstall --user 0 com.asurion.android.verizon.vms
-pm uninstall --user 0 com.securityandprivacy.android.verizon.vms
-pm uninstall --user 0 com.motricity.verizon.ssodownloadable
-pm uninstall --user 0 com.vzw.hs.android.modlite
-pm uninstall --user 0 com.samsung.vvm
-pm uninstall --user 0 com.vzw.ecid
-pm uninstall --user 0 com.customermobile.preload.vzw
-pm uninstall --user 0 com.android.vzwomatrigger
-pm uninstall --user 0 com.verizon.messaging.vzmsgs # Messages+
-pm uninstall --user 0 com.verizon.mips.services # My Verizon Services
-pm uninstall --user 0 com.verizon.onetalk.dialer # One Talk Dialer 
-pm uninstall --user 0 com.verizon.familybase.parent # Smart Family
-pm uninstall --user 0 com.LogiaGroup.LogiaDeck # Verizon App Manager
+#pm uninstall --user 0 com.vcast.mediamanager
+#pm uninstall --user 0 com.samsung.vmmhux
+#pm uninstall --user 0 com.vzw.hss.myverizon
+#pm uninstall --user 0 com.asurion.android.verizon.vms
+#pm uninstall --user 0 com.securityandprivacy.android.verizon.vms
+#pm uninstall --user 0 com.motricity.verizon.ssodownloadable
+#pm uninstall --user 0 com.vzw.hs.android.modlite
+#pm uninstall --user 0 com.samsung.vvm
+#pm uninstall --user 0 com.vzw.ecid
 
 
 # Fonts
