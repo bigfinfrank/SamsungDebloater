@@ -40,7 +40,6 @@ It's pretty easy to forget about 2FA apps as a lot of them don't sync data. If y
 
 The same principle goes for Password Managers, if yours doesn't sync data then you should find an alternative ([bitwarden](https://bitwarden.com) is a free and open source one that syncs data for free) or ensure you have a backup and know the password to unlock it.
 
-
 ## Preparing the phone itself
 First off you'll want to remove your SIM card(s) and any expandable storage (MicroSD cards), this minimalizes chances of Android reinstalling garbage while we remove it or before we can fully remove it (some stuff comes in multiple packages that like to reinstall each other). This is a great time to double check that you have a proper backup done and if you don't *please go back and make one.*
 
@@ -54,7 +53,7 @@ Now that you're ready with your SIM card removed and expandable storage out, go 
 
 **DO NOT** reinsert your SIM card(s) or connect to WiFi. When the device reboots go through the setup process by hitting skip on everything you can. You can get around connecting to the internet in the setup process by skipping the "Insert your SIM card" page, hitting "Continue with WiFI", then hitting skip again on the WiFi page. Go ahead and opt out of all of the tracking and telemetry stuff, there's really no benefit to leaving any of it on anyways but if you want to be warned it might fight the script.
 
-## 
+## Getting ready
 Woooh! you've probably already gone farther than 90% of people who had the idea of debloating their phone. Next we want to transfer over your alternative apps for stuff like the Play Store if you're using alternatives. To do this plug your phone into your PC, open up the notification shade and change your USB mode to transfer files on your phone, then on your PC drag the apk files into the Download folder on your phone, back to the phone open the My Files app and install the apps by clicking on the APKs, it'll ask for permission you can go ahead and grant it- the My Files app gets removed with the other Samsung junk later.
 
 On to the script! In it's current state it's honestly barely even a script, eventually I'll make a bash version that prompts the user about different things but for now we're doing stuff the old fashioned way. Open up debloat.txt and comment out packages you don't want to remove by adding a `#` at the start of the line. This isn't super difficult and you can go back and re-run the script later with less packages commented out if you change your down the road and want to remove something you previously commented out. You can also uncomment some of the stuff that's commented out by default but please read the comments I added each of these- typically stuff commented out by default breaks stuff in some way and I keep the default script setup in a way that I can use on all defaults, I tend to lean much more towards the get rid of everything side than you probably do.
