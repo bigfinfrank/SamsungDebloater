@@ -1,10 +1,11 @@
 # SamsungDebloater
 A debloater script for Samsung phones made by someone who hates it just as much as you do if not more. If you were like me and searched around for ages trying to find one complete list of packages to remove then I aim to provide that :D. With that said, everyone has different phones and carriers so if this doesn't uninstall all bloatware from your device and you find packages it left behind you can make a commit to this repo, just ensure that basic functions of the device (WiFi, mobile data, biometrics, receiving and sending both sms and phone calls, work profiles, navbar gestures) still work after removing the packages.
 
+*tested on a Snapdragon Samsung Galaxy Note 20 Ultra 5G VZW*
+
 # **⚠⚠⚠⚠⚠⚠⚠ WARNING ⚠⚠⚠⚠⚠⚠⚠**
 # ***WHILE THE SCRIPT WORKS DOCUMENTATION IS NOT YET COMPLETE, BE WARNED THAT YOU'RE BETTER OFF WAITING A FEW DAYS FOR ME TO FINISH IT. PROCEED AT YOUR OWN RISK***
 # **⚠⚠⚠⚠⚠⚠⚠ WARNING ⚠⚠⚠⚠⚠⚠⚠**
-*tested on a Snapdragon Samsung Galaxy Note 20 Ultra 5G VZW*
 
 # Before you start
 - READ THE ENTIRE README FIRST BEFORE DOING ANYTHING
@@ -27,7 +28,7 @@ Breaking down the command, pm stands for Package Manager so `pm uninstall` uses 
 
 Putting all of this together if you wanted to remove the Google Play Store for example, the command would be `pm uninstall --user 0 com.android.vending`.
 
-# Preparing
+# Getting the ready
 
 ## Backups
 Finally we get into the meat of things. First, __**BACK UP YOUR PHONE!**__ I seriously can't stress how important this is- using ADB to remove system apps can easily break things and although I haven't had it happen to me personally I have heard of it soft-bricking devices and I don't doubt it, you can basically anything.
