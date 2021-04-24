@@ -1,4 +1,13 @@
-### Samsung Debloat Script 1.3.5 ###
+###       Samsung Debloat Script 1.3.6       ###
+#      Warning: You should read the latest     #
+#    version of the README.md file which can   #
+#    be found on the project's GitHub repo @   #
+#    github.com/bigfinfrank/samsungdebloater   #
+#    You should also grab the latest version   #
+#    of this script while you're there!   :D   #
+###       Samsung Debloat Script 1.3.6       ###
+
+
 
 # Bixby
 pm uninstall --user 0 com.samsung.android.app.routines
@@ -116,6 +125,8 @@ pm uninstall --user 0 com.audible.application
 
 
 # Miscellaneous Samsung Bloatware
+pm uninstall --user 0 com.samsung.android.vtcamerasettings # Video call effects
+pm uninstall --user 0 com.samsung.android.voc # Samsung Members
 pm uninstall --user 0 android.autoinstalls.config.samsung
 pm uninstall --user 0 com.aura.oobe.samsung
 pm uninstall --user 0 com.mygalaxy
@@ -173,7 +184,6 @@ pm uninstall --user 0 com.samsung.android.drivelink.stub
 pm uninstall --user 0 com.samsung.android.dynamiclock
 pm uninstall --user 0 com.samsung.android.easysetup
 pm uninstall --user 0 com.samsung.android.emojiupdater
-pm uninstall --user 0 com.samsung.android.fmm
 pm uninstall --user 0 com.samsung.android.fmm # Find My mobile
 pm uninstall --user 0 com.samsung.android.forest # Digital Wellbeing
 pm uninstall --user 0 com.samsung.android.ipsgeofence
@@ -249,6 +259,7 @@ pm uninstall --user 0 comtv.peel.samsung.app
 
 # Other Bloatware
 pm uninstall --user 0 air.com.buffalo_studios.newflashbingo # Bingo Blitz
+pm uninstall --user 0 com.qualcomm.atfwd # WiFi screen mirroring service
 pm uninstall --user 0 co.hunge.app
 pm uninstall --user 0 com.android.apps.tag
 pm uninstall --user 0 com.android.backupconfirm
@@ -346,8 +357,8 @@ pm uninstall --user 0 flipboard.boxer.app
 pm uninstall --user 0 jp.gocro.smartnews.android
 pm uninstall --user 0 net.aetherpal.device
 pm uninstall --user 0 service.odtcfactory.sec.com.odtcfactoryservice
-pm uninstall --user 0 tv.pluto.android # Pluto TV
-
+pm uninstall --user 0 tv.pluto.android # Pluto 
+pm uninstall --user 0 com.tuya.smartlife
 
 
 # Verizon
@@ -368,6 +379,18 @@ pm uninstall --user 0 com.vzw.ecid
 pm uninstall --user 0 com.vzw.hs.android.modlite
 pm uninstall --user 0 com.vzw.hss.myverizon
 pm uninstall --user 0 com.diotek.sec.lookup.dictionary
+
+# AT&T
+pm uninstall --user 0 com.att.personalcloud
+pm uninstall --user 0 com.att.mobilesecurity
+pm uninstall --user 0 com.asurion.android.protech.att
+pm uninstall --user 0 com.att.android.attsmartwifi
+pm uninstall --user 0 com.att.thanks
+pm uninstall --user 0 com.att.tv
+pm uninstall --user 0 com.att.callprotect
+pm uninstall --user 0 com.att.dh
+pm uninstall --user 0 com.dti.att
+pm uninstall --user 0 com.att.myWireless
 
 # Fonts
 pm uninstall --user 0 com.monotype.android.font.chococooky
@@ -438,3 +461,14 @@ pm uninstall --user 0 com.sec.android.app.chromecustomizations
 #pm uninstall --user 0 com.samsung.knox.securefolder.setuppage
 #pm uninstall --user 0 com.sec.enterprise.knox.attestation
 #pm uninstall --user 0 com.sec.enterprise.knox.cloudmdm.smdms
+
+
+
+###       Samsung Debloat Script 1.3.6       ###
+#      Warning: You should read the latest     #
+#    version of the readme.md file which can   #
+#    be found on the project's GitHub repo @   #
+#    github.com/bigfinfrank/samsungdebloater   #
+#    You should also grab the latest version   #
+#    of this script while you're there!   :D   #
+###       Samsung Debloat Script 1.3.6       ###
