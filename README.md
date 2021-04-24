@@ -1,3 +1,8 @@
+# **⚠⚠⚠⚠⚠⚠⚠ WARNING ⚠⚠⚠⚠⚠⚠⚠**
+# ***After going through all the trouble of working on my own script, I found someone else's AIO script that accomplishes more. This really removes any point in me maintaining this script so instead I'll link the one that I found here, it seems to be much more well-maintained as well. It's hosted on [GitLab](https://gitlab.com/W1nst0n/universal-android-debloater) but I found [this mirror on GitHub](https://github.com/0x192/Universal-Android-Debloater).***
+# **⚠⚠⚠⚠⚠⚠⚠ WARNING ⚠⚠⚠⚠⚠⚠⚠**
+
+
 # Samsung Debloater
 A debloater script for Samsung phones made by someone who hates the bloat just as much as you do if not more. If you were like me and searched around for ages trying to find one complete list of packages to remove then I aim to provide that :D. With that said, everyone has different phones and carriers so if this doesn't uninstall all bloatware from your device and you find packages it left behind you can make a commit to this repo, just ensure that basic functions of the device (WiFi, mobile data, biometrics, receiving and sending both sms and phone calls, work profiles, navbar gestures, etc.) still work after removing the packages.
 
