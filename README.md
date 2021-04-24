@@ -2,7 +2,9 @@
 A debloater script for Samsung phones made by someone who hates it just as much as you do if not more. If you were like me and searched around for ages trying to find one complete list of packages to remove then I aim to provide that :D. With that said, everyone has different phones and carriers so if this doesn't uninstall all bloatware from your device and you find packages it left behind you can make a commit to this repo, just ensure that basic functions of the device (WiFi, mobile data, biometrics, receiving and sending both sms and phone calls, work profiles, navbar gestures) still work after removing the packages.
 
 *Tested on a Snapdragon Samsung Galaxy Note 20 Ultra 5G VZW bought in the US intially tested on System Update 7 then tested with each update through System Update 10.*
+
 *Version 1.3.4 of the script was additionally tested on a Samsung Galaxy A11 personally by me. I don't know specifications beyond the device model as it was a friend's device not mine.*
+
 *If you're willing to factory reset your device and follow all of the instructions in the README carefully, feel free to make a PR adding the same type of info I put for my Note 20 Ultra.*
 
 # Before you start
